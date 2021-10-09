@@ -249,7 +249,7 @@ public abstract class AbstractCompilerTest
 
             compilerConfig.addSourceLocation( sourceDir );
 
-            compilerConfig.setOutputLocation( "/target/" + getRoleHint() + "/classes-" + index );
+            compilerConfig.setOutputLocation( "target/" + getRoleHint() + "/classes-" + index );
 
             FileUtils.deleteDirectory( compilerConfig.getOutputLocation() );
 
